@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$title}</title>
+</head>
+<body>
+<ul>
+{foreach from=$names item=name}
+<li>{$name}</li>
+{/foreach}
+</ul>
+</body>
+</html>
